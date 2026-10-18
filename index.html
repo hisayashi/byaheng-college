@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Byaheng College</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="frame-wrapper">
+    <div class="frame">
+      <p id="tagline" class="tagline">Hello, Incoming  college! This is your guide<br>for your college destination.</p>
 
+      <div id="optionsPanel" class="options-panel hidden">
+        <div class="group">
+          <button class="school-btn main-btn" type="button" data-school="BulSU">BulSU</button>
+          <div class="sub-options hidden" id="bulsuSubOptions">
+            <button class="school-btn sub-btn" type="button" data-school="BulSU-Sarmiento">BulSU - Sarmiento</button>
+            <button class="school-btn sub-btn" type="button" data-school="BulSU-Malolos">BulSU - Malolos</button>
+          </div>
+        </div>
+        <button class="school-btn" type="button" data-school="QCU">QCU</button>
+        <button class="school-btn" type="button" data-school="FEU">FEU</button>
+        <button class="school-btn" type="button" data-school="PUP">PUP</button>
+        <button class="school-btn" type="button" data-school="CCSJDM">CCSJDM</button>
+        <button class="school-btn" type="button" data-school="UP">UP</button>
+      </div>
+
+      <div id="infoPanel" class="info-panel hidden">
+        <h2 id="schoolName">QCU</h2>
+        <p id="schoolInfo">Location: 673 Quirino Highway, San Bartolome, Novaliches, Quezon City</p>
+      </div>
+
+      <button id="openOptions" type="button">Click</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
